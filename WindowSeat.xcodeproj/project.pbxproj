@@ -417,7 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WindowSeat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 0.9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Langer.WindowSeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WindowSeat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 0.9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Langer.WindowSeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +511,7 @@
 				4D84B1281EB4F63600BB953B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D84B1291EB4F63600BB953B /* Build configuration list for PBXNativeTarget "WindowSeatTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				4D84B12B1EB4F63600BB953B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D84B12C1EB4F63600BB953B /* Build configuration list for PBXNativeTarget "WindowSeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				4D84B12E1EB4F63600BB953B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
