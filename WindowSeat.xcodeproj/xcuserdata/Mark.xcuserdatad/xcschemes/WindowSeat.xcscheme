@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D84B0FB1EB4F63500BB953B"
+               BlueprintIdentifier = "4D84B1371EB52CE400BB953B"
                BuildableName = "WindowSeat.app"
                BlueprintName = "WindowSeat"
                ReferencedContainer = "container:WindowSeat.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D84B1111EB4F63600BB953B"
+               BlueprintIdentifier = "4D84B14B1EB52CE400BB953B"
                BuildableName = "WindowSeatTests.xctest"
                BlueprintName = "WindowSeatTests"
                ReferencedContainer = "container:WindowSeat.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D84B11C1EB4F63600BB953B"
+               BlueprintIdentifier = "4D84B1561EB52CE400BB953B"
                BuildableName = "WindowSeatUITests.xctest"
                BlueprintName = "WindowSeatUITests"
                ReferencedContainer = "container:WindowSeat.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D84B0FB1EB4F63500BB953B"
+            BlueprintIdentifier = "4D84B1371EB52CE400BB953B"
             BuildableName = "WindowSeat.app"
             BlueprintName = "WindowSeat"
             ReferencedContainer = "container:WindowSeat.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D84B0FB1EB4F63500BB953B"
+            BlueprintIdentifier = "4D84B1371EB52CE400BB953B"
             BuildableName = "WindowSeat.app"
             BlueprintName = "WindowSeat"
             ReferencedContainer = "container:WindowSeat.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D84B0FB1EB4F63500BB953B"
+            BlueprintIdentifier = "4D84B1371EB52CE400BB953B"
             BuildableName = "WindowSeat.app"
             BlueprintName = "WindowSeat"
             ReferencedContainer = "container:WindowSeat.xcodeproj">
