@@ -14,9 +14,10 @@ class ViewController: UIViewController {
                                               zoom: 15)
         let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
         
+        
         let marker = GMSMarker()
         marker.position = camera.target
-        marker.snippet = "Hello World"
+        marker.snippet = "Current Location"
         marker.appearAnimation = GMSMarkerAnimation.pop
         marker.map = mapView
         
