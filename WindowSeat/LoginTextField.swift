@@ -12,7 +12,7 @@ import UIKit
 class LoginTextField: UITextField {
 
     override func layoutSubviews() {
-        super .layoutSubviews()
+        super.layoutSubviews()
         self.layer.borderColor = UIColor (white: 231 / 255, alpha: 1).cgColor
         self.layer.borderWidth = 1
     }
