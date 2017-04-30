@@ -15,6 +15,7 @@
 		4D84B1511EB52CE400BB953B /* WindowSeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84B1501EB52CE400BB953B /* WindowSeatTests.swift */; };
 		4D84B15C1EB52CE400BB953B /* WindowSeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84B15B1EB52CE400BB953B /* WindowSeatUITests.swift */; };
 		4D84B16E1EB52F3000BB953B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D84B16D1EB52F3000BB953B /* Podfile */; };
+		E3027D7F1EB553870067BC72 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3027D7E1EB553870067BC72 /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5E5FB8697DE39E4403DC2A26 /* Pods-WindowSeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindowSeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WindowSeat/Pods-WindowSeat.release.xcconfig"; sourceTree = "<group>"; };
 		7C95A8A8E8FDD01949D174C2 /* libPods-WindowSeat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WindowSeat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4434CE9368F995D6B492A7 /* Pods-WindowSeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindowSeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WindowSeat/Pods-WindowSeat.debug.xcconfig"; sourceTree = "<group>"; };
+		E3027D7E1EB553870067BC72 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				4D84B13B1EB52CE400BB953B /* AppDelegate.swift */,
 				4D84B13D1EB52CE400BB953B /* ViewController.swift */,
 				4D84B13F1EB52CE400BB953B /* Main.storyboard */,
+				E3027D7E1EB553870067BC72 /* LoginTextField.swift */,
 				4D84B1421EB52CE400BB953B /* Assets.xcassets */,
 				4D84B1441EB52CE400BB953B /* LaunchScreen.storyboard */,
 				4D84B1471EB52CE400BB953B /* Info.plist */,
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3027D7F1EB553870067BC72 /* LoginTextField.swift in Sources */,
 				4D84B13E1EB52CE400BB953B /* ViewController.swift in Sources */,
 				4D84B13C1EB52CE400BB953B /* AppDelegate.swift in Sources */,
 			);
