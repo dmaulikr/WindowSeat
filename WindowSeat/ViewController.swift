@@ -4,7 +4,7 @@ import GoogleMaps
 
 class ViewController: UIViewController {
 
-    override func loadView() {
+    /*override func loadView() {
         
         navigationItem.title = "Hello Map"
     
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         marker.map = mapView
         
         view = mapView
-    }
+    }*/
 
 }
 

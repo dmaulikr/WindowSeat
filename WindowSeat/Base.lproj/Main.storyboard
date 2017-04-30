@@ -1,26 +1,122 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WindowSeat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="UDc-kG-kIZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login window" translatesAutoresizingMaskIntoConstraints="NO" id="mHN-Jy-l2N">
+                                <rect key="frame" x="25.666666666666657" y="191" width="363" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="363" id="7QZ-Ih-wfx"/>
+                                    <constraint firstAttribute="height" constant="354" id="aQj-I1-4vG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WindowSeat draft logo" translatesAutoresizingMaskIntoConstraints="NO" id="qnV-Ii-OtA">
+                                <rect key="frame" x="98" y="248" width="219" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="q1g-QQ-zyw"/>
+                                    <constraint firstAttribute="width" constant="219" id="tal-Cf-xsp"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="Mark Langer" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-ZX-yt3" customClass="LoginTextField" customModule="WindowSeat" customModuleProvider="target">
+                                <rect key="frame" x="98" y="336" width="219" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1QQ-f0-nso"/>
+                                </constraints>
+                                <color key="textColor" red="0.043137254901960784" green="0.10196078431372549" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-mo-dkQ">
+                                <rect key="frame" x="107" y="342" width="56" height="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                <color key="textColor" red="0.044259048998355865" green="0.099856548011302948" blue="0.19116628170013428" alpha="0.3203125" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="*********************" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zo-Fc-1Hq" customClass="LoginTextField" customModule="WindowSeat" customModuleProvider="target">
+                                <rect key="frame" x="98" y="394" width="219" height="50"/>
+                                <color key="textColor" red="0.043137254899999998" green="0.1019607843" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybe-5a-AbH">
+                                <rect key="frame" x="107" y="400" width="56" height="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                <color key="textColor" red="0.044259049000000002" green="0.099856548010000004" blue="0.1911662817" alpha="0.3203125" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89A-Ue-fxC">
+                                <rect key="frame" x="98" y="452" width="219" height="50"/>
+                                <color key="backgroundColor" red="0.037196367979049683" green="0.0807996466755867" blue="0.15135431289672852" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="REGISTER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1B-GP-bn5">
+                                <rect key="frame" x="129.66666666666669" y="529" width="155.00000000000006" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                <state key="normal" title="Forgot your password?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.03703693300485611" green="0.0848708376288414" blue="0.15128782391548157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="89A-Ue-fxC" firstAttribute="height" secondItem="5zo-Fc-1Hq" secondAttribute="height" id="AU1-Sj-RMX"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="leading" secondItem="ybe-5a-AbH" secondAttribute="trailing" constant="-65" id="Cw9-rO-J0U"/>
+                            <constraint firstItem="O1B-GP-bn5" firstAttribute="top" secondItem="mHN-Jy-l2N" secondAttribute="bottom" constant="-16" id="I5h-nc-17G"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="width" secondItem="nDW-ZX-yt3" secondAttribute="width" id="JW6-w6-32r"/>
+                            <constraint firstItem="mHN-Jy-l2N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MB5-u6-mQ3"/>
+                            <constraint firstItem="O1B-GP-bn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MMr-xL-a7B"/>
+                            <constraint firstItem="nDW-ZX-yt3" firstAttribute="top" secondItem="qnV-Ii-OtA" secondAttribute="bottom" constant="-21" id="P0H-Q5-75t"/>
+                            <constraint firstItem="89A-Ue-fxC" firstAttribute="width" secondItem="5zo-Fc-1Hq" secondAttribute="width" id="PZO-GN-lnc"/>
+                            <constraint firstItem="mHN-Jy-l2N" firstAttribute="top" secondItem="qnV-Ii-OtA" secondAttribute="bottom" constant="-166" id="QaA-eo-4fI"/>
+                            <constraint firstItem="qnV-Ii-OtA" firstAttribute="centerX" secondItem="mHN-Jy-l2N" secondAttribute="centerX" id="TKR-5u-3PA"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="top" secondItem="ybe-5a-AbH" secondAttribute="bottom" constant="-17.999999999999943" id="WFh-3u-OBo"/>
+                            <constraint firstItem="89A-Ue-fxC" firstAttribute="top" secondItem="5zo-Fc-1Hq" secondAttribute="bottom" constant="8" id="XT2-W3-p9r"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="height" secondItem="nDW-ZX-yt3" secondAttribute="height" id="c76-o9-PTm"/>
+                            <constraint firstItem="nDW-ZX-yt3" firstAttribute="leading" secondItem="xtv-mo-dkQ" secondAttribute="trailing" constant="-65" id="dlr-qY-ViR"/>
+                            <constraint firstItem="nDW-ZX-yt3" firstAttribute="centerX" secondItem="mHN-Jy-l2N" secondAttribute="centerX" id="kWE-1d-0oP"/>
+                            <constraint firstItem="nDW-ZX-yt3" firstAttribute="top" secondItem="xtv-mo-dkQ" secondAttribute="bottom" constant="-17.999999999999943" id="kwZ-fQ-WuQ"/>
+                            <constraint firstItem="nDW-ZX-yt3" firstAttribute="trailing" secondItem="mHN-Jy-l2N" secondAttribute="trailing" constant="-71.670000000000002" id="lpG-E8-tYE"/>
+                            <constraint firstItem="89A-Ue-fxC" firstAttribute="leading" secondItem="5zo-Fc-1Hq" secondAttribute="leading" id="qJl-gZ-EWv"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="leading" secondItem="nDW-ZX-yt3" secondAttribute="leading" id="uN1-Qq-7Gp"/>
+                            <constraint firstItem="5zo-Fc-1Hq" firstAttribute="top" secondItem="nDW-ZX-yt3" secondAttribute="bottom" constant="8" id="uO3-IA-PbL"/>
+                            <constraint firstItem="mHN-Jy-l2N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wjM-rD-YXV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="116.57608695652175"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="375" height="667"/>
+        <image name="Login window" width="292" height="335"/>
+        <image name="WindowSeat draft logo" width="148" height="19"/>
+    </resources>
 </document>
