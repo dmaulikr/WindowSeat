@@ -345,7 +345,7 @@
         <image name="2000px-NASA_logo" width="76" height="64"/>
         <image name="350px-Icon_Education" width="77" height="77"/>
         <image name="Alecive-Flatwoken-Apps-Tripadvisor" width="66" height="66"/>
-        <image name="Back" width="414" height="66"/>
+        <image name="Back" width="414" height="64"/>
         <image name="Back MOOCS" width="413" height="66"/>
         <image name="Back Palo Alto" width="413" height="66"/>
         <image name="Back Stanford" width="275" height="44"/>
@@ -361,8 +361,8 @@
         <image name="twitter" width="65" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="3rw-RD-pmS"/>
         <segue reference="EpI-wQ-r5v"/>
-        <segue reference="QhF-Ip-kI5"/>
-        <segue reference="QN8-3x-Lfq"/>
+        <segue reference="D9e-Os-P8R"/>
     </inferredMetricsTieBreakers>
 </document>
